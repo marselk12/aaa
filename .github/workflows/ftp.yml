@@ -2,9 +2,9 @@ name: 🚀 Deploy website on push
 
 on:
   push:
-    branches: [ ftp ]
+    branches: [ "ftp" ]
   pull_request:
-    branches: [ ftp ]
+    branches: [ "ftp" ]
 
 jobs:
   web-deploy:
